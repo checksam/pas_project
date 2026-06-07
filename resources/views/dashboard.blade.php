@@ -7,7 +7,7 @@
     <div class="col-md-12">
         <div class="card border-0 shadow-sm bg-light pt-4 pb-3 px-4 mb-4">
             <div class="card-body p-0">
-                <h1 class="mb-2">🏦 Sistem Manajemen Bank</h1>
+                <h1 class="mb-2 text-dark">🏦 Sistem Manajemen Bank</h1>
                 <p class="text-secondary fs-5">Selamat datang di aplikasi manajemen bank untuk pembelajaran backend dengan Laravel.</p>
             </div>
         </div>
