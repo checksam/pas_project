@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
         @auth
-            <a href="/transaksi/create" class="btn btn-primary mb-3">➕ Transaksi Baru</a>
+            <a href="/transaksi/create" class="btn btn-primary mb-3">Transaksi Baru</a>
         @endauth
 
         @if($transaksi->isEmpty())
@@ -51,7 +51,7 @@
                                         <form action="/transaksi/{{ $item->id_transaksi }}" method="POST" style="display:inline;" onsubmit="return confirm('Yakin hapus?')">
                                             @csrf
                                             @method('DELETE')
-                                            <button type="submit" class="btn btn-sm btn-danger">🗑️ Hapus</button>
+                                            <button type="submit" class="btn btn-sm btn-danger">Hapus</button>
                                         </form>
                                     @endauth
                                 </td>

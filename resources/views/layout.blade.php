@@ -17,7 +17,7 @@
                 <button class="btn btn-outline-light btn-sm d-lg-none me-3" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle Menu Utama">
                     ☰
                 </button>
-                <a class="navbar-brand" href="/">🏦 Manajemen Bank</a>
+                <a class="navbar-brand" href="/">Manajemen Bank</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -54,11 +54,11 @@
             <div class="col-lg-3">
                 <div class="collapse d-lg-block sidebar p-4" id="sidebarMenu">
                     <h5 class="mb-4 text-white">Menu Utama</h5>
-                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/">📊 Dashboard</a>
-                    <a class="nav-link {{ request()->is('pegawai*') ? 'active' : '' }}" href="/pegawai">👥 Pegawai</a>
-                    <a class="nav-link {{ request()->is('rekening*') ? 'active' : '' }}" href="/rekening">💰 Rekening</a>
-                    <a class="nav-link {{ request()->is('transaksi*') ? 'active' : '' }}" href="/transaksi">📝 Transaksi</a>
-                    <a class="nav-link {{ request()->is('transfer*') ? 'active' : '' }}" href="/transfer">🔄 Transfer</a>
+                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="/"> Dashboard</a>
+                    <a class="nav-link {{ request()->is('pegawai*') ? 'active' : '' }}" href="/pegawai">Pegawai</a>
+                    <a class="nav-link {{ request()->is('rekening*') ? 'active' : '' }}" href="/rekening"> Rekening</a>
+                    <a class="nav-link {{ request()->is('transaksi*') ? 'active' : '' }}" href="/transaksi">transaksi</a>
+                    <a class="nav-link {{ request()->is('transfer*') ? 'active' : '' }}" href="/transfer">Transfer</a>
                 </div>
             </div>
 

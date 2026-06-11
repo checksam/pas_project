@@ -7,7 +7,7 @@
     <div class="col-md-12">
         <div class="card border-0 shadow-sm bg-light pt-4 pb-3 px-4 mb-4">
             <div class="card-body p-0">
-                <h1 class="mb-2 text-dark">🏦 Sistem Manajemen Bank</h1>
+                <h1 class="mb-2 text-dark">Sistem Manajemen Bank</h1>
                 <p class="text-secondary fs-5">Selamat datang di aplikasi manajemen bank untuk pembelajaran backend dengan Laravel.</p>
             </div>
         </div>
@@ -18,7 +18,7 @@
     <div class="col-md-6">
         <div class="card border-0 shadow-sm h-100 overflow-hidden" style="background: linear-gradient(135deg, #2d8cff 0%, #73b7ff 100%);">
             <div class="card-body text-white">
-                <h5 class="card-title">👥 Pegawai</h5>
+                <h5 class="card-title">Pegawai</h5>
                 <p class="card-text">Kelola data karyawan bank dengan mudah.</p>
                 <a href="/pegawai" class="btn btn-outline-light btn-sm">Lihat Data →</a>
             </div>
@@ -28,7 +28,7 @@
     <div class="col-md-6">
         <div class="card border-0 shadow-sm h-100 overflow-hidden" style="background: linear-gradient(135deg, #2ecc71 0%, #81e1ab 100%);">
             <div class="card-body text-white">
-                <h5 class="card-title">💰 Rekening</h5>
+                <h5 class="card-title">Rekening</h5>
                 <p class="card-text">Kelola rekening nasabah dengan tampilan yang bersih.</p>
                 <a href="/rekening" class="btn btn-outline-light btn-sm">Lihat Data →</a>
             </div>
@@ -38,7 +38,7 @@
     <div class="col-md-6">
         <div class="card border-0 shadow-sm h-100 overflow-hidden" style="background: linear-gradient(135deg, #f39c12 0%, #f7c45e 100%);">
             <div class="card-body text-white">
-                <h5 class="card-title">📝 Transaksi</h5>
+                <h5 class="card-title">Transaksi</h5>
                 <p class="card-text">Catat transaksi setor dan tarik dengan aman.</p>
                 <a href="/transaksi" class="btn btn-outline-light btn-sm">Lihat Data →</a>
             </div>
@@ -48,7 +48,7 @@
     <div class="col-md-6">
         <div class="card border-0 shadow-sm h-100 overflow-hidden" style="background: linear-gradient(135deg, #1abc9c 0%, #66d7c5 100%);">
             <div class="card-body text-white">
-                <h5 class="card-title">🔄 Transfer</h5>
+                <h5 class="card-title">Transfer</h5>
                 <p class="card-text">Proses transfer antar rekening dengan cepat.</p>
                 <a href="/transfer" class="btn btn-outline-light btn-sm">Lihat Data →</a>
             </div>

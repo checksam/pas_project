@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
         @auth
-            <a href="/transfer/create" class="btn btn-primary mb-3">➕ Transfer Baru</a>
+            <a href="/transfer/create" class="btn btn-primary mb-3">Transfer Baru</a>
         @endauth
 
         @if($transfer->isEmpty())
@@ -48,9 +48,9 @@
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="/transfer/{{ $item->id_transfer }}" class="btn btn-sm btn-info">👁️ Lihat</a>
+                                    <a href="/transfer/{{ $item->id_transfer }}" class="btn btn-sm btn-info">Lihat</a>
                                     @auth
-                                        <a href="/transfer/{{ $item->id_transfer }}/edit" class="btn btn-sm btn-warning">✏️ Edit</a>
+                                        <a href="/transfer/{{ $item->id_transfer }}/edit" class="btn btn-sm btn-warning">Edit</a>
                                     @endauth
                                 </td>
                             </tr>
