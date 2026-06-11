@@ -45,7 +45,7 @@
 
         <div class="card bg-light mb-4">
             <div class="card-body">
-                <h6 class="card-title">💰 Detail Transaksi Keuangan</h6>
+                <h6 class="card-title">Detail Transaksi Keuangan</h6>
                 <div class="row">
                     <div class="col-md-6">
                         <table class="table table-borderless">

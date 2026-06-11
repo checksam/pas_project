@@ -168,3 +168,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+                    <a class="nav-link {{ request()->is('transaksi*') ? 'active' : '' }}" href="/transaksi">transaksi</a>
+                    <div class="mb-3">
+                <label for="id_rekening_pengirim" class="form-label">Pilih Rekening Pengirim *</label>
+                <select class="form-select text-dark @error('id_rekening_pengirim') is-invalid @enderror" 
+                        id="id_rekening_pengirim" name="id_rekening_pengirim" required onchange="updatePengirim()"
+                        style="text-dark: true;">

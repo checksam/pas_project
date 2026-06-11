@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
         @auth
-            <a href="/rekening/create" class="btn btn-primary mb-3">➕ Buat Rekening Baru</a>
+            <a href="/rekening/create" class="btn btn-primary mb-3">Buat Rekening Baru</a>
         @endauth
 
         @if($rekening->isEmpty())

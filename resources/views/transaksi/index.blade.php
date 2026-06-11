@@ -46,7 +46,7 @@
                                 <td class="text-end">Rp {{ number_format($item->saldo_sesudah, 2, ',', '.') }}</td>
                                 <td>{{ $item->pegawai->nama_pegawai }}</td>
                                 <td>
-                                    <a href="/transaksi/{{ $item->id_transaksi }}" class="btn btn-sm btn-info">👁️ Lihat</a>
+                                    <a href="/transaksi/{{ $item->id_transaksi }}" class="btn btn-sm btn-info">Lihat</a>
                                     @auth
                                         <form action="/transaksi/{{ $item->id_transaksi }}" method="POST" style="display:inline;" onsubmit="return confirm('Yakin hapus?')">
                                             @csrf

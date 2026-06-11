@@ -7,6 +7,8 @@
     --text: #e6eef8;
     --accent: #2563eb; /* blue accent */
     --accent-2: #10b981; /* green accent */
+    --success: var(--accent-2);
+    --danger: #ef4444;
 }
 
 html,body {
@@ -86,3 +88,20 @@ body {
     .sidebar { position: relative; top: auto; min-height: auto; max-height: none; overflow: visible; padding-top:1rem }
     .content { padding-top: 1rem; }
 }
+
+/* Make all divs use project text color by default */
+div {
+    color: var(--text) !important;
+    background-color: transparent;
+}
+
+/* Bootstrap utility overrides mapped to project variables */
+.text-white { color: var(--text) !important; }
+.text-muted { color: var(--muted) !important; }
+.text-success { color: var(--success) !important; }
+.text-danger { color: var(--danger) !important; }
+.bg-primary { background-color: var(--accent) !important; }
+.border-primary { border-color: var(--accent) !important; }
+
+/* Helper class if you need to force main text color on non-div elements */
+.text-main { color: var(--text) !important; }
