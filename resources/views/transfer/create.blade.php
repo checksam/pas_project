@@ -20,8 +20,9 @@
             
             <div class="mb-3">
                 <label for="id_rekening_pengirim" class="form-label">Pilih Rekening Pengirim *</label>
-                <select class="form-select @error('id_rekening_pengirim') is-invalid @enderror" 
-                        id="id_rekening_pengirim" name="id_rekening_pengirim" required onchange="updatePengirim()">
+                <select class="form-select text-dark @error('id_rekening_pengirim') is-invalid @enderror" 
+                        id="id_rekening_pengirim" name="id_rekening_pengirim" required onchange="updatePengirim()"
+                        style="text-dark: true;">
                     <option value="">-- Pilih Rekening --</option>
                     @foreach($rekening as $item)
                         <option value="{{ $item->id_rekening }}" 
@@ -39,12 +40,13 @@
                 <div id="pengirim-info" class="mt-2"></div>
             </div>
 
-            <h6 class="mb-3 border-bottom pb-2">📥 Data Penerima</h6>
+            <h6 class="mb-3 border-bottom pb-2">Data Penerima</h6>
 
             <div class="mb-3">
                 <label for="id_rekening_penerima" class="form-label">Pilih Rekening Penerima *</label>
                 <select class="form-select @error('id_rekening_penerima') is-invalid @enderror" 
-                        id="id_rekening_penerima" name="id_rekening_penerima" required onchange="updatePenerima()">
+                        id="id_rekening_penerima" name="id_rekening_penerima" required onchange="updatePenerima()"
+                        style="text-dark: true;">
                     <option value="">-- Pilih Rekening --</option>
                     @foreach($rekening as $item)
                         <option value="{{ $item->id_rekening }}" 

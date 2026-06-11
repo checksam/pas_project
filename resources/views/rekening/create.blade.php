@@ -62,6 +62,18 @@
             </div>
 
             <div class="mb-3">
+                <label for="status" class="form-label">Status Rekening *</label>
+                 <select class="form-select @error('status') is-invalid @enderror" 
+                        id="status" name="status" required 
+                        style="text-dark: true;">
+                    <option value="">Pilih Status Rekening</option>
+                    <option value="aktif" {{ old('status') === 'aktif' ? 'selected' : '' }}>Aktif</option>
+                    <option value="non-aktif" {{ old('status') === 'non-aktif' ? 'selected' : '' }}>Non-Aktif</option>
+                </select>
+                </select>
+            </div>
+
+            <div class="mb-3">
                 <label for="catatan" class="form-label">Catatan</label>
                 <textarea class="form-control @error('catatan') is-invalid @enderror" 
                           id="catatan" name="catatan" rows="3">{{ old('catatan') }}</textarea>

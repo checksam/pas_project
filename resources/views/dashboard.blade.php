@@ -8,7 +8,7 @@
         <div class="card border-0 shadow-sm bg-light pt-4 pb-3 px-4 mb-4">
             <div class="card-body p-0">
                 <h1 class="mb-2 text-dark">Sistem Manajemen Bank</h1>
-                <p class="text-secondary fs-5">Selamat datang di aplikasi manajemen bank untuk pembelajaran backend dengan Laravel.</p>
+                <p class="text-secondary fs-5">Selamat datang di aplikasi manajemen bank untuk melihat list bank</p>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
 <!-- Keterangan Pembelajaran -->
 <div class="card mt-4">
     <div class="card-header bg-dark text-white">
-        <h5 class="mb-0">📚 Keterangan Pembelajaran</h5>
+        <h5 class="mb-0">Keterangan Pembelajaran</h5>
     </div>
     <div class="card-body">
         <h6>BAB 1: Arsitektur & Konfigurasi Framework</h6>
@@ -102,7 +102,7 @@
 </div>
 
 <div class="alert alert-info mt-4">
-    <strong>💡 Tips untuk Modifikasi:</strong>
+    <strong>Tips untuk Modifikasi:</strong>
     <ul class="mb-0">
         <li>Ubah struktur field di <code>database/migrations/</code></li>
         <li>Ubah validasi rules di method <code>store()</code> dan <code>update()</code> di Controllers</li>
